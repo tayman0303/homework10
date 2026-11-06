@@ -16,7 +16,7 @@ function draw() {
   for (let y of yCoords){
     rect(240,y,100,25,10)
   }
-  //sunrays going left and right (forloop)
+  //sunrays going left and right(forloop)
   for (let x of xCoords){
     rect(x,240,25,100,10)
   }

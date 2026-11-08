@@ -26,6 +26,9 @@ function draw() {
   ellipse(mouseX, mouseY, 25, 25)
   fill('black')
   ellipse(mouseX-20,mouseY-5,25,10)
+  fill('white')
   ellipse(mouseX+20,mouseY-5,25,10)
   pop();
+
+  triangle()
 }

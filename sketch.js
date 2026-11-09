@@ -25,21 +25,21 @@ function draw() {
   if(treeX1 >= width + 200) {
     treeX1 = -120
     treeY1 = random(-100,10)
-    treeSpeed1 = random(3,5)
+    treeSpeed1 = random(3,4)
   }
 treeX2 = treeX2 + treeSpeed2;
   tree2(treeX2,treeY2,0)
   if(treeX2 >= width + 200) {
     treeX2 = -120
     treeY2 = random(-100,10)
-    treeSpeed2 = random(3,7)
+    treeSpeed2 = random(3,4)
   }
   treeX3 = treeX3 + treeSpeed3;
   tree3(treeX3,treeY3,0)
   if(treeX3 >= width + 200) {
     treeX3 = -120
     treeY3 = random(-100,10)
-    treeSpeed3 = random(3,6)
+    treeSpeed3 = random(3,4)
   }
 }
 function tree1(x,y,r){
@@ -94,6 +94,10 @@ function sunShine(){
   for (let x of xCoords){
     rect(x,240,25,100,10)
   }
+
+function grassySpot(){
+  
+}
 
 }
 
